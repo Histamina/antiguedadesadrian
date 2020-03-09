@@ -1,0 +1,307 @@
+$font-main: 'IM Fell French Canon SC', serif;
+$font-titles: 'Roboto', sans-serif;
+$font-text: 'Lato', sans-serif;
+
+body {
+    overflow-x: hidden;
+}
+
+.h1 {
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+    text-shadow: 1px 2px 3px rgb(138, 138, 138);
+}
+
+h2, h3 {
+    font-family: $font-titles;
+    letter-spacing: 0.1rem;
+    text-shadow: 1px 1px 1px rgb(138, 138, 138);
+}
+
+p, .lista {
+    font-family: $font-text;
+    font-size: 1.1rem;
+    color: rgb(94, 94, 94);
+}
+
+section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.2rem;
+}
+
+/* NAVBAR ESTILO */
+
+.navbar {
+    background-color: rgba(20, 20, 20, 0.85) !important;
+}
+.navbar-dark {
+    ul {
+    text-transform: uppercase;
+    font-family: $font-titles;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+        .nav-item {
+            .nav-link {
+                color: rgb(212, 212, 212);
+            &.active {
+                color: rgb(236, 191, 68); 
+            }
+            &:hover {
+                color: rgb(218, 177, 66);
+                }
+            }
+        }
+    }
+    .redesSoc {
+        .mdi {
+            &-instagram, &-facebook {
+                color: rgb(204, 204, 204);
+                    text-shadow: 1px 1px 1px rgb(131, 131, 131);
+                    font-size: 1.7rem;
+                    border-radius: 0.5rem;
+                    padding: 0 0.5rem;
+                    margin: 0 0.3rem;
+            }
+        }
+        button {
+            .mdi-whatsapp {
+                font-size: 1.05rem;
+            }
+        }
+    }
+}
+
+/* OFFSET */
+
+section.offset::before {
+    height: 10rem;
+    margin-top: -10rem;
+    content: "";
+    display: block;
+}
+
+/* Heading estilo */
+.heading-underline {
+    width: 3rem;
+    height: 0.2rem;
+    background-color: rgb(119, 119, 119);
+    margin: 3rem auto 2rem;
+}
+
+
+/* HEADER CAROUSEL */
+
+#header {
+    background: rgb(18,18,18);
+    background: linear-gradient(180deg, rgba(18,18,18,1) 0%, rgba(110,109,109,0.7175245098039216) 53%, rgba(195,193,193,1) 100%);
+    padding-top: 8.5rem;
+    .carouselText {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        h2 {
+            position: absolute;
+            margin: auto 20%;
+            bottom: 2.3rem;
+            left: 0;
+            right: 0;
+            color: rgb(245, 243, 243);
+            background-color: rgba(114, 114, 114, 0.6);
+            font-size: 2.3rem;
+            font-style: italic;
+            letter-spacing: 0.2rem;
+        }
+    }
+}
+
+/* QUIENES SOMOS */
+
+#quienesSomos {
+    background-color: #f7f7f7;
+}
+
+/* QUÉ COMPRAMOS*/
+
+#queCompramos {
+    ul {
+        color: #3a3a3a;
+        text-shadow: 1px 1px 3px rgb(173, 173, 173);
+    }
+}
+
+/* TASACIONES */
+
+#tasaciones {
+    background-color: rgb(245, 245, 245);
+}
+
+/* CONTACTO */
+
+#contacto {
+    background-color: rgb(233, 233, 233);
+    .iconSocFb {
+        background-color: #4267b2;
+        .mdi-facebook {
+            color: #ffffff;
+            text-shadow: 1px 1px 2px rgb(8, 15, 116);
+            font-size: 4.1rem;
+        }
+        h5 {
+            color: #ffffff;
+            font-family: $font-text;
+        }
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+    .iconSocWapp {
+        background-color: #2ad42a;
+        .mdi-whatsapp {
+            color: #ffffff;
+            text-shadow: 1px 1px 2px rgb(20, 116, 8);
+            font-size: 4.1rem;
+        }
+        h5 {
+            font-family: $font-text;
+            color: #ffffff;
+        }
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+    .iconSocIg {
+        background: #d6249f;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+        .mdi-instagram {
+            color: #ffffff;
+            text-shadow: 1px 1px 2px rgb(116, 8, 71);
+            font-size: 4.1rem;
+        }
+        h5 {
+            font-family: $font-text;
+            color: #ffffff;
+        }
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: #222222;
+    color: #ffff;
+
+    .division-hr {
+        color: rgb(80, 80, 80);
+        border: 1px solid;
+        width: 100%;
+    }
+    .text-footer {
+        font-family: $font-main;
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+        text-shadow: 1px 2px 1px rgb(138, 138, 138);
+    }
+    .textCopyright {
+        font-size: 0.8rem;
+    }
+}
+
+
+/*------ MEDIA QUERIES ------*/
+
+/* NAVBAR Título*/
+@media (max-width: 576px) {
+    .h1 {
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+    }
+}
+
+/*--- NAVBAR ---*/
+
+@media (max-width: 576px) {
+    .navbar-dark {
+        .redesSoc {
+            a {
+                button.btn-success {
+                    padding: 0.3rem;
+                    i.mdi-whatsapp {
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1025px) {
+    .navbar-dark {
+        ul {
+            font-size: 0.7rem;
+        }
+    }
+}
+
+/*--- HEADER ---*/ 
+
+@media (max-width: 1025px) and (min-width: 769px) {
+    #header {
+        .carouselText {
+            h2 {
+                font-size: 2rem;
+                margin: auto 15%; 
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) and (min-width: 577px) {
+    #header {
+        .carouselText {
+            h2 {
+                font-size: 1.8rem;
+                margin: auto 10%; 
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    #header {
+        .carouselText {
+            h2 {
+                font-size: 0.7rem;
+                margin: auto 1%; 
+            }
+        }
+    }
+}
+
+/*--- CONTACTO ---*/
+
+@media (max-width: 576px) {
+    #contacto {
+        .titleMediaWrapper {
+            h5 {
+            font-size: 1.1rem;
+            }
+        }
+    }
+}
+
+/*--- FOOTER ---*/
+
+@media (max-width: 576px) {
+    #footer {
+        .text-footer {
+            font-size: 1.5rem;
+        }
+    }
+}
