@@ -106,22 +106,24 @@ section.offset::before {
     background-color: #4267b2; }
     #contacto .iconSocFb .mdi-facebook {
       color: #ffffff;
-      text-shadow: 1px 1px 2px #080f74;
+      text-shadow: 2px 2px 3px #080f74;
       font-size: 4.1rem; }
     #contacto .iconSocFb h5 {
       color: #ffffff;
-      font-family: "Lato", sans-serif; }
+      font-family: "Lato", sans-serif;
+      text-shadow: 1px 1px 1px #080f74; }
     #contacto .iconSocFb:hover {
       opacity: 0.6; }
   #contacto .iconSocWapp {
     background-color: #2ad42a; }
     #contacto .iconSocWapp .mdi-whatsapp {
       color: #ffffff;
-      text-shadow: 1px 1px 2px #147408;
+      text-shadow: 2px 2px 3px #147408;
       font-size: 4.1rem; }
     #contacto .iconSocWapp h5 {
       font-family: "Lato", sans-serif;
-      color: #ffffff; }
+      color: #ffffff;
+      text-shadow: 1px 1px 1px #147408; }
     #contacto .iconSocWapp:hover {
       opacity: 0.6; }
   #contacto .iconSocIg {
@@ -129,11 +131,12 @@ section.offset::before {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
     #contacto .iconSocIg .mdi-instagram {
       color: #ffffff;
-      text-shadow: 1px 1px 2px #740847;
+      text-shadow: 2px 2px 3px #740847;
       font-size: 4.1rem; }
     #contacto .iconSocIg h5 {
       font-family: "Lato", sans-serif;
-      color: #ffffff; }
+      color: #ffffff;
+      text-shadow: 1px 1px 1px #740847; }
     #contacto .iconSocIg:hover {
       opacity: 0.6; }
 
