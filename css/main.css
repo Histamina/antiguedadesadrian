@@ -65,16 +65,16 @@ section.offset::before {
   margin: 3rem auto 2rem; }
 
 /* HEADER CAROUSEL */
-#header {
+#carousel {
   background: #121212;
   background: linear-gradient(180deg, #121212 0%, rgba(110, 109, 109, 0.717525) 53%, #c3c1c1 100%);
   padding-top: 8.5rem; }
-  #header .carouselText {
+  #carousel .carouselText {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: flex-end; }
-    #header .carouselText h2 {
+    #carousel .carouselText h2 {
       position: absolute;
       margin: auto 20%;
       bottom: 2.3rem;
