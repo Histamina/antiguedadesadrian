@@ -88,7 +88,7 @@ section.offset::before {
 
 /* QUIENES SOMOS */
 #quienesSomos {
-  background-color: #f7f7f7; }
+  background-color: #dfdfdf; }
 
 /* QUÉ COMPRAMOS*/
 #queCompramos ul {
@@ -97,13 +97,14 @@ section.offset::before {
 
 /* TASACIONES */
 #tasaciones {
-  background-color: whitesmoke; }
+  background-color: #e7e7e7; }
 
 /* CONTACTO */
 #contacto {
-  background-color: #e9e9e9; }
+  background-color: #dfdfdf; }
   #contacto .iconSocFb {
-    background-color: #4267b2; }
+    background-color: #4267b2;
+    padding: 16% 25%; }
     #contacto .iconSocFb .mdi-facebook {
       color: #ffffff;
       text-shadow: 2px 2px 3px #080f74;
@@ -115,7 +116,8 @@ section.offset::before {
     #contacto .iconSocFb:hover {
       opacity: 0.6; }
   #contacto .iconSocWapp {
-    background-color: #2ad42a; }
+    background-color: #2ad42a;
+    padding: 16% 25%; }
     #contacto .iconSocWapp .mdi-whatsapp {
       color: #ffffff;
       text-shadow: 2px 2px 3px #147408;
@@ -128,7 +130,8 @@ section.offset::before {
       opacity: 0.6; }
   #contacto .iconSocIg {
     background: #d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    padding: 16% 25%; }
     #contacto .iconSocIg .mdi-instagram {
       color: #ffffff;
       text-shadow: 2px 2px 3px #740847;
@@ -174,26 +177,35 @@ section.offset::before {
   .navbar-dark ul {
     font-size: 0.7rem; } }
 
-/*--- HEADER ---*/
+/*--- CAROUSEL ---*/
 @media (max-width: 1025px) and (min-width: 769px) {
-  #header .carouselText h2 {
+  #carousel .carouselText h2 {
     font-size: 2rem;
     margin: auto 15%; } }
 
 @media (max-width: 768px) and (min-width: 577px) {
-  #header .carouselText h2 {
+  #carousel .carouselText h2 {
     font-size: 1.8rem;
     margin: auto 10%; } }
 
-@media (max-width: 576px) {
-  #header .carouselText h2 {
+@media (max-width: 576px) and (min-width: 321px) {
+  #carousel .carouselText h2 {
+    font-size: 1rem;
+    margin: auto 1%; } }
+
+@media (max-width: 320px) {
+  #carousel .carouselText h2 {
     font-size: 0.7rem;
     margin: auto 1%; } }
 
 /*--- CONTACTO ---*/
 @media (max-width: 576px) {
-  #contacto .titleMediaWrapper h5 {
-    font-size: 1.1rem; } }
+  #contacto .iconSocFb, #contacto .iconSocWapp, #contacto .iconSocIg {
+    padding: 7% 13%; }
+    #contacto .iconSocFb .mdi-facebook, #contacto .iconSocFb .mdi-instagram, #contacto .iconSocFb .mdi-whatsapp, #contacto .iconSocWapp .mdi-facebook, #contacto .iconSocWapp .mdi-instagram, #contacto .iconSocWapp .mdi-whatsapp, #contacto .iconSocIg .mdi-facebook, #contacto .iconSocIg .mdi-instagram, #contacto .iconSocIg .mdi-whatsapp {
+      font-size: 2.7rem; }
+    #contacto .iconSocFb .titleMediaWrapper, #contacto .iconSocWapp .titleMediaWrapper, #contacto .iconSocIg .titleMediaWrapper {
+      font-size: 1rem; } }
 
 /*--- FOOTER ---*/
 @media (max-width: 576px) {
