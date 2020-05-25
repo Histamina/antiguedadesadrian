@@ -51,10 +51,13 @@ section {
   font-size: 1.05rem; }
 
 /* OFFSET */
-section.offset::before {
-  height: 10rem;
-  margin-top: -10rem;
-  content: "";
+.offset {
+  position: relative; }
+
+.offset > .ancla {
+  position: absolute;
+  top: -10rem;
+  left: 0;
   display: block; }
 
 /* Heading estilo */
@@ -87,60 +90,60 @@ section.offset::before {
       letter-spacing: 0.2rem; }
 
 /* QUIENES SOMOS */
-#quienesSomos {
+#nosotros-zone {
   background-color: #dfdfdf; }
 
 /* QUÉ COMPRAMOS*/
-#queCompramos ul {
+#compra-zone ul {
   color: #3a3a3a;
   text-shadow: 1px 1px 3px #adadad; }
 
 /* TASACIONES */
-#tasaciones {
+#tasaciones-zone {
   background-color: #e7e7e7; }
 
 /* CONTACTO */
-#contacto {
+#contacto-zone {
   background-color: #dfdfdf; }
-  #contacto .iconSocFb {
+  #contacto-zone .iconSocFb {
     background-color: #4267b2;
     padding: 16% 25%; }
-    #contacto .iconSocFb .mdi-facebook {
+    #contacto-zone .iconSocFb .mdi-facebook {
       color: #ffffff;
       text-shadow: 2px 2px 3px #080f74;
       font-size: 4.1rem; }
-    #contacto .iconSocFb h5 {
+    #contacto-zone .iconSocFb h5 {
       color: #ffffff;
       font-family: "Lato", sans-serif;
       text-shadow: 1px 1px 1px #080f74; }
-    #contacto .iconSocFb:hover {
+    #contacto-zone .iconSocFb:hover {
       opacity: 0.6; }
-  #contacto .iconSocWapp {
+  #contacto-zone .iconSocWapp {
     background-color: #2ad42a;
     padding: 16% 25%; }
-    #contacto .iconSocWapp .mdi-whatsapp {
+    #contacto-zone .iconSocWapp .mdi-whatsapp {
       color: #ffffff;
       text-shadow: 2px 2px 3px #147408;
       font-size: 4.1rem; }
-    #contacto .iconSocWapp h5 {
+    #contacto-zone .iconSocWapp h5 {
       font-family: "Lato", sans-serif;
       color: #ffffff;
       text-shadow: 1px 1px 1px #147408; }
-    #contacto .iconSocWapp:hover {
+    #contacto-zone .iconSocWapp:hover {
       opacity: 0.6; }
-  #contacto .iconSocIg {
+  #contacto-zone .iconSocIg {
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     padding: 16% 25%; }
-    #contacto .iconSocIg .mdi-instagram {
+    #contacto-zone .iconSocIg .mdi-instagram {
       color: #ffffff;
       text-shadow: 2px 2px 3px #740847;
       font-size: 4.1rem; }
-    #contacto .iconSocIg h5 {
+    #contacto-zone .iconSocIg h5 {
       font-family: "Lato", sans-serif;
       color: #ffffff;
       text-shadow: 1px 1px 1px #740847; }
-    #contacto .iconSocIg:hover {
+    #contacto-zone .iconSocIg:hover {
       opacity: 0.6; }
 
 /* FOOTER */
@@ -200,11 +203,11 @@ section.offset::before {
 
 /*--- CONTACTO ---*/
 @media (max-width: 576px) {
-  #contacto .iconSocFb, #contacto .iconSocWapp, #contacto .iconSocIg {
+  #contacto-zone .iconSocFb, #contacto-zone .iconSocWapp, #contacto-zone .iconSocIg {
     padding: 7% 13%; }
-    #contacto .iconSocFb .mdi-facebook, #contacto .iconSocFb .mdi-instagram, #contacto .iconSocFb .mdi-whatsapp, #contacto .iconSocWapp .mdi-facebook, #contacto .iconSocWapp .mdi-instagram, #contacto .iconSocWapp .mdi-whatsapp, #contacto .iconSocIg .mdi-facebook, #contacto .iconSocIg .mdi-instagram, #contacto .iconSocIg .mdi-whatsapp {
+    #contacto-zone .iconSocFb .mdi-facebook, #contacto-zone .iconSocFb .mdi-instagram, #contacto-zone .iconSocFb .mdi-whatsapp, #contacto-zone .iconSocWapp .mdi-facebook, #contacto-zone .iconSocWapp .mdi-instagram, #contacto-zone .iconSocWapp .mdi-whatsapp, #contacto-zone .iconSocIg .mdi-facebook, #contacto-zone .iconSocIg .mdi-instagram, #contacto-zone .iconSocIg .mdi-whatsapp {
       font-size: 2.7rem; }
-    #contacto .iconSocFb .titleMediaWrapper, #contacto .iconSocWapp .titleMediaWrapper, #contacto .iconSocIg .titleMediaWrapper {
+    #contacto-zone .iconSocFb .titleMediaWrapper, #contacto-zone .iconSocWapp .titleMediaWrapper, #contacto-zone .iconSocIg .titleMediaWrapper {
       font-size: 1rem; } }
 
 /*--- FOOTER ---*/

@@ -77,12 +77,8 @@ section {
 
 /* OFFSET */
 
-section.offset::before {
-    height: 10rem;
-    margin-top: -10rem;
-    content: "";
-    display: block;
-}
+.offset {position: relative; }
+.offset > .ancla {position: absolute; top: -10rem; left: 0; display: block; }
 
 /* Heading estilo */
 .heading-underline {
@@ -122,13 +118,13 @@ section.offset::before {
 
 /* QUIENES SOMOS */
 
-#quienesSomos {
+#nosotros-zone {
     background-color: #dfdfdf;
 }
 
 /* QUÉ COMPRAMOS*/
 
-#queCompramos {
+#compra-zone {
     ul {
         color: #3a3a3a;
         text-shadow: 1px 1px 3px rgb(173, 173, 173);
@@ -137,13 +133,13 @@ section.offset::before {
 
 /* TASACIONES */
 
-#tasaciones {
+#tasaciones-zone {
     background-color: rgb(231, 231, 231);
 }
 
 /* CONTACTO */
 
-#contacto {
+#contacto-zone {
     background-color: rgb(223, 223, 223);
     .iconSocFb {
         background-color: #4267b2;
@@ -306,7 +302,7 @@ section.offset::before {
 /*--- CONTACTO ---*/
 
 @media (max-width: 576px) {
-    #contacto {
+    #contacto-zone {
         .iconSocFb, .iconSocWapp, .iconSocIg {
             padding: 7% 13%;
             .mdi-facebook, .mdi-instagram, .mdi-whatsapp {
