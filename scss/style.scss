@@ -153,7 +153,7 @@ section {
     background-color: rgb(223, 223, 223);
     .iconSocFb {
         background-color: #4267b2;
-        padding: 16% 25%;
+        padding: 2vh 2.3vw;
         .mdi-facebook {
             color: #ffffff;
             text-shadow: 2px 2px 3px rgb(8, 15, 116);
@@ -170,7 +170,7 @@ section {
     }
     .iconSocWapp {
         background-color: #2ad42a;
-        padding: 16% 25%;
+        padding: 2vh 2.3vw;
         .mdi-whatsapp {
             color: #ffffff;
             text-shadow: 2px 2px 3px rgb(20, 116, 8);
@@ -188,7 +188,7 @@ section {
     .iconSocIg {
         background: #d6249f;
         background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-        padding: 16% 25%;
+        padding: 2vh 2.3vw;
         .mdi-instagram {
             color: #ffffff;
             text-shadow: 2px 2px 3px rgb(116, 8, 71);
@@ -311,10 +311,26 @@ section {
 
 /*--- CONTACTO ---*/
 
+@media (max-width: 1025px) and (min-width: 769px) {
+    #contacto-zone {
+        .iconSocFb, .iconSocWapp, .iconSocIg {
+            padding: 1.2vh 3.5vw;
+        }
+    }
+}
+
+@media (max-width: 768px) and (min-width: 577px) {
+    #contacto-zone {
+        .iconSocFb, .iconSocWapp, .iconSocIg {
+            padding: 1.6vh 3.5vw;
+        }
+    }
+}
+
 @media (max-width: 576px) {
     #contacto-zone {
         .iconSocFb, .iconSocWapp, .iconSocIg {
-            padding: 7% 13%;
+            padding: 1.2vh 3.4vw;
             .mdi-facebook, .mdi-instagram, .mdi-whatsapp {
                 font-size: 2.7rem;
             }
