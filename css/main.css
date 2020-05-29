@@ -104,46 +104,36 @@ section {
 /* CONTACTO */
 #contacto-zone {
   background-color: #dfdfdf; }
-  #contacto-zone .iconSocFb {
-    background-color: #4267b2;
-    padding: 2vh 2.3vw; }
-    #contacto-zone .iconSocFb .mdi-facebook {
-      color: #ffffff;
-      text-shadow: 2px 2px 3px #080f74;
-      font-size: 4.1rem; }
-    #contacto-zone .iconSocFb h5 {
-      color: #ffffff;
-      font-family: "Lato", sans-serif;
+  #contacto-zone .media-anchor {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    height: 180px;
+    width: 180px;
+    overflow: hidden; }
+    #contacto-zone .media-anchor.facebook {
+      background-color: #4267b2;
       text-shadow: 1px 1px 1px #080f74; }
-    #contacto-zone .iconSocFb:hover {
-      opacity: 0.6; }
-  #contacto-zone .iconSocWapp {
-    background-color: #2ad42a;
-    padding: 2vh 2.3vw; }
-    #contacto-zone .iconSocWapp .mdi-whatsapp {
-      color: #ffffff;
-      text-shadow: 2px 2px 3px #147408;
-      font-size: 4.1rem; }
-    #contacto-zone .iconSocWapp h5 {
-      font-family: "Lato", sans-serif;
-      color: #ffffff;
+      #contacto-zone .media-anchor.facebook .mdi-facebook {
+        text-shadow: 2px 2px 3px #080f74;
+        font-size: 4rem; }
+    #contacto-zone .media-anchor.whatsapp {
+      background-color: #2ad42a;
       text-shadow: 1px 1px 1px #147408; }
-    #contacto-zone .iconSocWapp:hover {
-      opacity: 0.6; }
-  #contacto-zone .iconSocIg {
-    background: #d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    padding: 2vh 2.3vw; }
-    #contacto-zone .iconSocIg .mdi-instagram {
-      color: #ffffff;
-      text-shadow: 2px 2px 3px #740847;
-      font-size: 4.1rem; }
-    #contacto-zone .iconSocIg h5 {
-      font-family: "Lato", sans-serif;
-      color: #ffffff;
+      #contacto-zone .media-anchor.whatsapp .mdi-whatsapp {
+        text-shadow: 2px 2px 3px #147408;
+        font-size: 4rem; }
+    #contacto-zone .media-anchor.instagram {
+      background: #d6249f;
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
       text-shadow: 1px 1px 1px #740847; }
-    #contacto-zone .iconSocIg:hover {
-      opacity: 0.6; }
+      #contacto-zone .media-anchor.instagram .mdi-instagram {
+        text-shadow: 2px 2px 3px #740847;
+        font-size: 4rem; }
 
 /* FOOTER */
 #footer {
@@ -201,20 +191,22 @@ section {
     margin: auto 1%; } }
 
 /*--- CONTACTO ---*/
-@media (max-width: 1025px) and (min-width: 769px) {
-  #contacto-zone .iconSocFb, #contacto-zone .iconSocWapp, #contacto-zone .iconSocIg {
-    padding: 1.2vh 3.5vw; } }
-
-@media (max-width: 768px) and (min-width: 577px) {
-  #contacto-zone .iconSocFb, #contacto-zone .iconSocWapp, #contacto-zone .iconSocIg {
-    padding: 1.6vh 3.5vw; } }
-
 @media (max-width: 576px) {
-  #contacto-zone .iconSocFb, #contacto-zone .iconSocWapp, #contacto-zone .iconSocIg {
-    padding: 1.2vh 3.4vw; }
-    #contacto-zone .iconSocFb .mdi-facebook, #contacto-zone .iconSocFb .mdi-instagram, #contacto-zone .iconSocFb .mdi-whatsapp, #contacto-zone .iconSocWapp .mdi-facebook, #contacto-zone .iconSocWapp .mdi-instagram, #contacto-zone .iconSocWapp .mdi-whatsapp, #contacto-zone .iconSocIg .mdi-facebook, #contacto-zone .iconSocIg .mdi-instagram, #contacto-zone .iconSocIg .mdi-whatsapp {
-      font-size: 2.7rem; }
-    #contacto-zone .iconSocFb .titleMediaWrapper, #contacto-zone .iconSocWapp .titleMediaWrapper, #contacto-zone .iconSocIg .titleMediaWrapper {
+  #contacto-zone .media-anchor {
+    height: 90px;
+    width: 90px;
+    overflow: hidden; }
+    #contacto-zone .media-anchor.facebook .mdi-facebook {
+      font-size: 2rem; }
+    #contacto-zone .media-anchor.facebook h5 {
+      font-size: 1rem; }
+    #contacto-zone .media-anchor.whatsapp .mdi-whatsapp {
+      font-size: 2rem; }
+    #contacto-zone .media-anchor.whatsapp h5 {
+      font-size: 1rem; }
+    #contacto-zone .media-anchor.instagram .mdi-instagram {
+      font-size: 2rem; }
+    #contacto-zone .media-anchor.instagram h5 {
       font-size: 1rem; } }
 
 /*--- FOOTER ---*/
