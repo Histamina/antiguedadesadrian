@@ -92,7 +92,7 @@ section {
 #nosotros-zone {
   background-color: #dfdfdf; }
 
-/* QUÉ COMPRAMOS*/
+/* QUÉ COMPRAMOS */
 #compra-zone ul {
   color: #3a3a3a;
   text-shadow: 1px 1px 3px #adadad; }
@@ -139,6 +139,11 @@ section {
 #footer {
   background-color: #222222;
   color: #ffff; }
+  #footer a {
+    color: #FFFFFF !important;
+    text-decoration: underline; }
+  #footer .site-title {
+    text-decoration: none !important; }
   #footer .division-hr {
     color: #505050;
     border: 1px solid;
@@ -148,8 +153,11 @@ section {
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     text-shadow: 1px 2px 1px #8a8a8a; }
-  #footer .textCopyright {
+  #footer .text-copyright {
     font-size: 0.8rem; }
+  #footer .developed-by {
+    font-size: 14px;
+    letter-spacing: 1px; }
 
 /*------ MEDIA QUERIES ------*/
 /* NAVBAR Título*/

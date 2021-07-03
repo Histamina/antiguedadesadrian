@@ -129,7 +129,7 @@ section {
     background-color: #dfdfdf;
 }
 
-/* QUÉ COMPRAMOS*/
+/* QUÉ COMPRAMOS */
 
 #compra-zone {
     ul {
@@ -189,23 +189,34 @@ section {
 /* FOOTER */
 
 #footer {
-    background-color: #222222;
-    color: #ffff;
-
-    .division-hr {
-        color: rgb(80, 80, 80);
-        border: 1px solid;
-        width: 100%;
-    }
-    .text-footer {
-        font-family: $font-main;
-        font-size: 1.8rem;
-        letter-spacing: 0.1rem;
-        text-shadow: 1px 2px 1px rgb(138, 138, 138);
-    }
-    .textCopyright {
-        font-size: 0.8rem;
-    }
+   background-color: #222222;
+   color: #ffff;
+   
+   a {
+      color: #FFFFFF !important;
+      text-decoration: underline;
+   }
+   .site-title {
+      text-decoration: none !important;
+   }
+   .division-hr {
+      color: rgb(80, 80, 80);
+      border: 1px solid;
+      width: 100%;
+   }
+   .text-footer {
+      font-family: $font-main;
+      font-size: 1.8rem;
+      letter-spacing: 0.1rem;
+      text-shadow: 1px 2px 1px rgb(138, 138, 138);
+   }
+   .text-copyright {
+      font-size: 0.8rem;
+   }
+   .developed-by {
+      font-size: 14px;
+      letter-spacing: 1px;
+   }
 }
 
 
