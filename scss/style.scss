@@ -55,7 +55,7 @@ section {
             }
         }
     }
-    .redesSoc {
+    .redes-sociales-wrapper {
         .mdi {
             &-instagram, &-facebook {
                 color: rgb(204, 204, 204);
@@ -66,9 +66,13 @@ section {
                     margin: 0 0.3rem;
             }
         }
-        button {
+        .btn-success {
+            background-color: #008800;
+            border-color: #008800;
+            text-shadow: 1px 1px 1px #147408; 
             .mdi-whatsapp {
-                font-size: 1.05rem;
+               font-size: 1.05rem;
+               text-shadow: 1px 1px 1px #147408;
             }
         }
     }
@@ -129,7 +133,7 @@ section {
     background-color: #dfdfdf;
 }
 
-/* QUÉ COMPRAMOS*/
+/* QUÉ COMPRAMOS */
 
 #compra-zone {
     ul {
@@ -141,7 +145,28 @@ section {
 /* TASACIONES */
 
 #tasaciones-zone {
-    background-color: rgb(231, 231, 231);
+   background-color: rgb(231, 231, 231);
+   .text-wrapper {
+      a {
+         button {
+            background-color: rgb(236, 191, 68);
+            border-color: rgb(236, 191, 68);
+            u {
+               color: #3a3a3a;
+               margin-bottom: 3px;
+               font-size: 17px;
+            }
+            .mdi-email-send {
+               font-size: 20px;
+               color: #3a3a3a;
+            }
+            &:hover {
+               background-color: darken(rgb(236, 191, 68), 5);
+               border-color: lighten(rgb(236, 191, 68), 10);
+            }
+         }
+      }
+   }
 }
 
 /* CONTACTO */
@@ -162,22 +187,40 @@ section {
         &.facebook{
             background-color: #4267b2; 
             text-shadow: 1px 1px 1px #080f74;
+            p {
+               font-weight: 800;
+               line-height: 1.2;
+               color: #FFFFFF;
+               letter-spacing: 1px;
+            }
             .mdi-facebook{
                 text-shadow: 2px 2px 3px #080f74;
                 font-size: 4rem;
             }
         }
         &.whatsapp {
-            background-color: #2ad42a; 
-            text-shadow: 1px 1px 1px #147408;
+            background-color: #008800; 
+            text-shadow: 1px 1px 1px #115808;
+            p {
+               font-weight: 800;
+               line-height: 1.2;
+               color: #FFFFFF;
+               letter-spacing: 1px;
+            }
             .mdi-whatsapp {
-                text-shadow: 2px 2px 3px #147408;
+                text-shadow: 2px 2px 3px #115808;
                 font-size: 4rem;
             }
         }
         &.instagram {
             background: #d6249f; 
             background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); text-shadow: 1px 1px 1px #740847;
+            p {
+               font-weight: 800;
+               line-height: 1.2;
+               color: #FFFFFF;
+               letter-spacing: 1px;
+            }
             .mdi-instagram {
                 text-shadow: 2px 2px 3px #740847;
                 font-size: 4rem;
@@ -189,23 +232,49 @@ section {
 /* FOOTER */
 
 #footer {
-    background-color: #222222;
-    color: #ffff;
-
-    .division-hr {
-        color: rgb(80, 80, 80);
-        border: 1px solid;
-        width: 100%;
-    }
-    .text-footer {
-        font-family: $font-main;
-        font-size: 1.8rem;
-        letter-spacing: 0.1rem;
-        text-shadow: 1px 2px 1px rgb(138, 138, 138);
-    }
-    .textCopyright {
-        font-size: 0.8rem;
-    }
+   background-color: #222222;
+   color: #ffff;
+   
+   a {
+      color: #FFFFFF !important;
+      text-decoration: underline;
+      p {
+         font-family: $font-titles;
+         color:#FFFFFF;
+         font-size: 1rem;
+         letter-spacing: 1px;
+      }
+   }
+   .site-title {
+      text-decoration: none !important;
+   }
+   .division-hr {
+      color: rgb(80, 80, 80);
+      border: 1px solid;
+      width: 100%;
+   }
+   .text-footer {
+      font-family: $font-main;
+      font-size: 1.8rem;
+      letter-spacing: 0.1rem;
+      text-shadow: 1px 2px 1px rgb(138, 138, 138);
+      &.text-address {
+         font-family: $font-titles;
+         color:#FFFFFF;
+         font-size: 1rem;
+         letter-spacing: 1px;
+         text-shadow: none;
+      }
+   }
+   .text-copyright {
+      font-size: 0.8rem;
+      color: #aeaeae;
+   }
+   .developed-by {
+      font-size: 14px;
+      letter-spacing: 1px;
+      color: #aeaeae;
+   }
 }
 
 
@@ -223,7 +292,7 @@ section {
 
 @media (max-width: 576px) {
     .navbar-dark {
-        .redesSoc {
+        .redes-sociales-wrapper {
             a {
                 button.btn-success {
                     padding: 0.3rem;
@@ -302,7 +371,7 @@ section {
                 .mdi-facebook{
                     font-size: 2rem;
                 }
-                h5 {
+                p {
                     font-size: 1rem;
                 }
             }
@@ -310,7 +379,7 @@ section {
                 .mdi-whatsapp {
                     font-size: 2rem;
                 }
-                h5 {
+                p {
                     font-size: 1rem;
                 }
             }
@@ -318,7 +387,7 @@ section {
                 .mdi-instagram {
                     font-size: 2rem;
                 }
-                h5 {
+                p {
                     font-size: 1rem;
                 }
             }
