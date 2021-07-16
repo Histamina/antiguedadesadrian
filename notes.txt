@@ -1,0 +1,2 @@
+- The error in console with node-sass solves by installing the last version of it -> npm i node-sass
+- then, run the project *npm run watch-css*.
