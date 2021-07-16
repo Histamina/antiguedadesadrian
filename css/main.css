@@ -48,7 +48,8 @@ section {
   margin: 0 0.3rem; }
 
 .navbar-dark .redes-sociales-wrapper .btn-success {
-  background-color: #1aa81a;
+  background-color: #008800;
+  border-color: #008800;
   text-shadow: 1px 1px 1px #147408; }
   .navbar-dark .redes-sociales-wrapper .btn-success .mdi-whatsapp {
     font-size: 1.05rem;
@@ -144,15 +145,15 @@ section {
         text-shadow: 2px 2px 3px #080f74;
         font-size: 4rem; }
     #contacto-zone .media-anchor.whatsapp {
-      background-color: #1ebb1e;
-      text-shadow: 1px 1px 1px #147408; }
+      background-color: #008800;
+      text-shadow: 1px 1px 1px #115808; }
       #contacto-zone .media-anchor.whatsapp p {
         font-weight: 800;
         line-height: 1.2;
         color: #FFFFFF;
         letter-spacing: 1px; }
       #contacto-zone .media-anchor.whatsapp .mdi-whatsapp {
-        text-shadow: 2px 2px 3px #147408;
+        text-shadow: 2px 2px 3px #115808;
         font-size: 4rem; }
     #contacto-zone .media-anchor.instagram {
       background: #d6249f;
@@ -190,11 +191,19 @@ section {
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     text-shadow: 1px 2px 1px #8a8a8a; }
+    #footer .text-footer.text-address {
+      font-family: "Roboto", sans-serif;
+      color: #FFFFFF;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      text-shadow: none; }
   #footer .text-copyright {
-    font-size: 0.8rem; }
+    font-size: 0.8rem;
+    color: #aeaeae; }
   #footer .developed-by {
     font-size: 14px;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    color: #aeaeae; }
 
 /*------ MEDIA QUERIES ------*/
 /* NAVBAR Título*/

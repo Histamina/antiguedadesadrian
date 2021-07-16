@@ -67,7 +67,8 @@ section {
             }
         }
         .btn-success {
-            background-color: #1aa81a;
+            background-color: #008800;
+            border-color: #008800;
             text-shadow: 1px 1px 1px #147408; 
             .mdi-whatsapp {
                font-size: 1.05rem;
@@ -198,8 +199,8 @@ section {
             }
         }
         &.whatsapp {
-            background-color: #1ebb1e; 
-            text-shadow: 1px 1px 1px #147408;
+            background-color: #008800; 
+            text-shadow: 1px 1px 1px #115808;
             p {
                font-weight: 800;
                line-height: 1.2;
@@ -207,7 +208,7 @@ section {
                letter-spacing: 1px;
             }
             .mdi-whatsapp {
-                text-shadow: 2px 2px 3px #147408;
+                text-shadow: 2px 2px 3px #115808;
                 font-size: 4rem;
             }
         }
@@ -257,13 +258,22 @@ section {
       font-size: 1.8rem;
       letter-spacing: 0.1rem;
       text-shadow: 1px 2px 1px rgb(138, 138, 138);
+      &.text-address {
+         font-family: $font-titles;
+         color:#FFFFFF;
+         font-size: 1rem;
+         letter-spacing: 1px;
+         text-shadow: none;
+      }
    }
    .text-copyright {
       font-size: 0.8rem;
+      color: #aeaeae;
    }
    .developed-by {
       font-size: 14px;
       letter-spacing: 1px;
+      color: #aeaeae;
    }
 }
 
