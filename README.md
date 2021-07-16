@@ -9,7 +9,7 @@
 ### Incompatibilities
 
 - Sometimes - and after you install the project - is possible that an incompatibility reffered to ```node-sass```, shows up. 
-This is easily resolved by node-sass update to latest version: ```npm i node-sass``
+This is easily resolved by node-sass update to latest version: ```npm i node-sass```
 
 #### Visit the website 
 
