@@ -308,3 +308,7 @@ section {
     font-size: 14px !important;
     letter-spacing: 1px !important;
     color: #aeaeae !important; } }
+
+/* Loom hide content */
+#loom-companion-mv3 {
+  display: none; }
