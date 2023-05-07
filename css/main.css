@@ -48,12 +48,14 @@ section {
   margin: 0 0.3rem; }
 
 .navbar-dark .redes-sociales-wrapper .btn-success {
-  background-color: #008800;
-  border-color: #008800;
-  text-shadow: 1px 1px 1px #147408; }
-  .navbar-dark .redes-sociales-wrapper .btn-success .mdi-whatsapp {
+  background-color: #ecbf44;
+  border-color: #ecbf44;
+  text-shadow: 1px 1px 1px #c4971d; }
+  .navbar-dark .redes-sociales-wrapper .btn-success:hover {
+    background-color: #dab142; }
+  .navbar-dark .redes-sociales-wrapper .btn-success .mdi-phone {
     font-size: 1.05rem;
-    text-shadow: 1px 1px 1px #147408; }
+    text-shadow: 1px 1px 1px #c4971d; }
 
 /* OFFSET */
 .offset {
@@ -145,17 +147,18 @@ section {
       #contacto-zone .media-anchor.facebook .mdi-facebook {
         text-shadow: 2px 2px 3px #080f74;
         font-size: 4rem; }
-    #contacto-zone .media-anchor.whatsapp {
-      background-color: #008800;
-      text-shadow: 1px 1px 1px #115808; }
-      #contacto-zone .media-anchor.whatsapp p {
+    #contacto-zone .media-anchor.phone {
+      background-color: #ecbf44;
+      border-color: #ecbf44;
+      text-shadow: 1px 1px 1px #c4971d; }
+      #contacto-zone .media-anchor.phone p {
         font-family: "Roboto", sans-serif;
         font-weight: 800;
         line-height: 1.2;
         color: #FFFFFF;
         letter-spacing: 1px; }
-      #contacto-zone .media-anchor.whatsapp .mdi-whatsapp {
-        text-shadow: 2px 2px 3px #115808;
+      #contacto-zone .media-anchor.phone .mdi-phone {
+        text-shadow: 2px 2px 3px #c4971d;
         font-size: 4rem; }
     #contacto-zone .media-anchor.instagram {
       background: #d6249f;
@@ -204,7 +207,7 @@ section {
     font-size: 0.8rem;
     color: #aeaeae; }
   #footer .developed-by {
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 1px;
     color: #aeaeae; }
 
@@ -219,7 +222,7 @@ section {
 @media (max-width: 576px) {
   .navbar-dark .redes-sociales-wrapper a button.btn-success {
     padding: 0.3rem; }
-    .navbar-dark .redes-sociales-wrapper a button.btn-success i.mdi-whatsapp {
+    .navbar-dark .redes-sociales-wrapper a button.btn-success i.mdi-phone {
       font-size: 0.9rem; }
   .navbar-dark .redes-sociales-wrapper a .mdi-instagram, .navbar-dark .redes-sociales-wrapper a .mdi-facebook {
     color: #cccccc;
@@ -265,9 +268,9 @@ section {
     #contacto-zone .media-anchor.facebook p {
       font-family: "Roboto", sans-serif;
       font-size: 1rem; }
-    #contacto-zone .media-anchor.whatsapp .mdi-whatsapp {
+    #contacto-zone .media-anchor.phone .mdi-phone {
       font-size: 2rem; }
-    #contacto-zone .media-anchor.whatsapp p {
+    #contacto-zone .media-anchor.phone p {
       font-family: "Roboto", sans-serif;
       font-size: 1rem; }
     #contacto-zone .media-anchor.instagram .mdi-instagram {
