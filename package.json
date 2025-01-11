@@ -4,13 +4,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "build-css": "sass --no-source-map scss/style.scss css/main.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.14.1",
+    "sass": "^1.32.0",
     "nodemon": "^2.0.2"
   },
   "dependencies": {},
