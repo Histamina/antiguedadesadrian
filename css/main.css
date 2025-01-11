@@ -1,307 +1,374 @@
 @charset "UTF-8";
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
 .h1 {
-  font-family: 'IM Fell French Canon SC', serif;
+  font-family: "IM Fell French Canon SC", serif;
   font-size: 3rem;
   font-weight: 600;
   letter-spacing: 0.4rem;
-  text-shadow: 1px 2px 3px #8a8a8a; }
+  text-shadow: 1px 2px 3px rgb(138, 138, 138);
+}
 
 h2, h3 {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.1rem;
-  text-shadow: 1px 1px 1px #8a8a8a; }
+  text-shadow: 1px 1px 1px rgb(138, 138, 138);
+}
 
 p, .lista {
   font-family: "Lato", sans-serif;
   font-size: 1.1rem;
-  color: #5e5e5e; }
+  color: rgb(94, 94, 94);
+}
 
 section {
   padding-top: 2.5rem;
-  padding-bottom: 2.2rem; }
+  padding-bottom: 2.2rem;
+}
 
 /* NAVBAR ESTILO */
 .navbar {
-  background-color: rgba(20, 20, 20, 0.85) !important; }
+  background-color: rgba(20, 20, 20, 0.85) !important;
+}
 
 .navbar-dark ul {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-size: 0.8rem;
-  letter-spacing: 0.1rem; }
-  .navbar-dark ul .nav-item .nav-link {
-    color: #d4d4d4; }
-    .navbar-dark ul .nav-item .nav-link.active {
-      color: #ecbf44; }
-    .navbar-dark ul .nav-item .nav-link:hover {
-      color: #dab142; }
-
+  letter-spacing: 0.1rem;
+}
+.navbar-dark ul .nav-item .nav-link {
+  color: rgb(212, 212, 212);
+}
+.navbar-dark ul .nav-item .nav-link.active {
+  color: rgb(236, 191, 68);
+}
+.navbar-dark ul .nav-item .nav-link:hover {
+  color: rgb(218, 177, 66);
+}
 .navbar-dark .redes-sociales-wrapper .mdi-instagram, .navbar-dark .redes-sociales-wrapper .mdi-facebook {
-  color: #cccccc;
-  text-shadow: 1px 1px 1px #838383;
+  color: rgb(204, 204, 204);
+  text-shadow: 1px 1px 1px rgb(131, 131, 131);
   font-size: 1.7rem;
   border-radius: 0.5rem;
   padding: 0 0.5rem;
-  margin: 0 0.3rem; }
-
+  margin: 0 0.3rem;
+}
 .navbar-dark .redes-sociales-wrapper .btn-success {
   background-color: #008800;
   border-color: #008800;
-  text-shadow: 1px 1px 1px #147408; }
-  .navbar-dark .redes-sociales-wrapper .btn-success .mdi-whatsapp {
-    font-size: 1.05rem;
-    text-shadow: 1px 1px 1px #147408; }
+  text-shadow: 1px 1px 1px #147408;
+}
+.navbar-dark .redes-sociales-wrapper .btn-success .mdi-whatsapp {
+  font-size: 1.05rem;
+  text-shadow: 1px 1px 1px #147408;
+}
 
 /* OFFSET */
 .offset {
-  position: relative; }
-  .offset > .ancla {
-    position: absolute;
-    top: -10rem;
-    left: 0;
-    display: block; }
+  position: relative;
+}
+.offset > .ancla {
+  position: absolute;
+  top: -10rem;
+  left: 0;
+  display: block;
+}
 
 /* HEADING UNDERLINE  */
 .heading-underline {
   width: 3rem;
   height: 0.2rem;
-  background-color: #777777;
-  margin: 3rem auto 2rem; }
+  background-color: rgb(119, 119, 119);
+  margin: 3rem auto 2rem;
+}
 
 /* HEADER CAROUSEL */
 #carousel {
-  background: #121212;
-  background: linear-gradient(180deg, #121212 0%, rgba(110, 109, 109, 0.717525) 53%, #c3c1c1 100%);
-  padding-top: 8.5rem; }
-  #carousel .carouselText {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end; }
-    #carousel .carouselText h2 {
-      position: absolute;
-      margin: auto 20%;
-      bottom: 2.3rem;
-      left: 0;
-      right: 0;
-      color: #f5f3f3;
-      background-color: rgba(114, 114, 114, 0.6);
-      font-size: 2.3rem;
-      font-style: italic;
-      letter-spacing: 0.2rem; }
+  background: rgb(18, 18, 18);
+  background: linear-gradient(180deg, rgb(18, 18, 18) 0%, rgba(110, 109, 109, 0.7175245098) 53%, rgb(195, 193, 193) 100%);
+  padding-top: 8.5rem;
+}
+#carousel .carouselText {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#carousel .carouselText h2 {
+  position: absolute;
+  margin: auto 20%;
+  bottom: 2.3rem;
+  left: 0;
+  right: 0;
+  color: rgb(245, 243, 243);
+  background-color: rgba(114, 114, 114, 0.6);
+  font-size: 2.3rem;
+  font-style: italic;
+  letter-spacing: 0.2rem;
+}
 
 /* QUIENES SOMOS */
 #nosotros-zone {
-  background-color: #dfdfdf; }
+  background-color: #dfdfdf;
+}
 
 /* QUÉ COMPRAMOS */
 #compra-zone ul {
   color: #3a3a3a;
-  text-shadow: 1px 1px 3px #adadad; }
+  text-shadow: 1px 1px 3px rgb(173, 173, 173);
+}
 
 /* TASACIONES */
 #tasaciones-zone {
-  background-color: #e7e7e7; }
-  #tasaciones-zone .text-wrapper a button {
-    background-color: #ecbf44;
-    border-color: #ecbf44; }
-    #tasaciones-zone .text-wrapper a button u {
-      color: #3a3a3a;
-      margin-bottom: 3px;
-      font-size: 17px; }
-    #tasaciones-zone .text-wrapper a button .mdi-email-send {
-      font-size: 20px;
-      color: #3a3a3a; }
-    #tasaciones-zone .text-wrapper a button:hover {
-      background-color: #eab72d;
-      border-color: #f1cf72; }
+  background-color: rgb(231, 231, 231);
+}
+#tasaciones-zone .text-wrapper a button {
+  background-color: rgb(236, 191, 68);
+  border-color: rgb(236, 191, 68);
+}
+#tasaciones-zone .text-wrapper a button u {
+  color: #3a3a3a;
+  margin-bottom: 3px;
+  font-size: 17px;
+}
+#tasaciones-zone .text-wrapper a button .mdi-email-send {
+  font-size: 20px;
+  color: #3a3a3a;
+}
+#tasaciones-zone .text-wrapper a button:hover {
+  background-color: rgb(233.6480582524, 183.0776699029, 44.8519417476);
+  border-color: rgb(240.7038834951, 206.8446601942, 114.2961165049);
+}
 
 /* CONTACTO */
 #contacto-zone {
-  background-color: #dfdfdf; }
-  #contacto-zone .media-anchor {
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-    height: 180px;
-    width: 180px;
-    overflow: hidden; }
-    #contacto-zone .media-anchor.facebook {
-      background-color: #4267b2;
-      text-shadow: 1px 1px 1px #080f74; }
-      #contacto-zone .media-anchor.facebook p {
-        font-family: "Roboto", sans-serif;
-        font-weight: 800;
-        line-height: 1.2;
-        color: #FFFFFF;
-        letter-spacing: 1px; }
-      #contacto-zone .media-anchor.facebook .mdi-facebook {
-        text-shadow: 2px 2px 3px #080f74;
-        font-size: 4rem; }
-    #contacto-zone .media-anchor.whatsapp {
-      background-color: #008800;
-      text-shadow: 1px 1px 1px #115808; }
-      #contacto-zone .media-anchor.whatsapp p {
-        font-family: "Roboto", sans-serif;
-        font-weight: 800;
-        line-height: 1.2;
-        color: #FFFFFF;
-        letter-spacing: 1px; }
-      #contacto-zone .media-anchor.whatsapp .mdi-whatsapp {
-        text-shadow: 2px 2px 3px #115808;
-        font-size: 4rem; }
-    #contacto-zone .media-anchor.instagram {
-      background: #d6249f;
-      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-      text-shadow: 1px 1px 1px #740847; }
-      #contacto-zone .media-anchor.instagram p {
-        font-family: "Roboto", sans-serif;
-        font-weight: 800;
-        line-height: 1.2;
-        color: #FFFFFF;
-        letter-spacing: 1px; }
-      #contacto-zone .media-anchor.instagram .mdi-instagram {
-        text-shadow: 2px 2px 3px #740847;
-        font-size: 4rem; }
+  background-color: rgb(223, 223, 223);
+}
+#contacto-zone .media-anchor {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  height: 180px;
+  width: 180px;
+  overflow: hidden;
+}
+#contacto-zone .media-anchor.facebook {
+  background-color: #4267b2;
+  text-shadow: 1px 1px 1px #080f74;
+}
+#contacto-zone .media-anchor.facebook p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+#contacto-zone .media-anchor.facebook .mdi-facebook {
+  text-shadow: 2px 2px 3px #080f74;
+  font-size: 4rem;
+}
+#contacto-zone .media-anchor.whatsapp {
+  background-color: #008800;
+  text-shadow: 1px 1px 1px #115808;
+}
+#contacto-zone .media-anchor.whatsapp p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+#contacto-zone .media-anchor.whatsapp .mdi-whatsapp {
+  text-shadow: 2px 2px 3px #115808;
+  font-size: 4rem;
+}
+#contacto-zone .media-anchor.instagram {
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  text-shadow: 1px 1px 1px #740847;
+}
+#contacto-zone .media-anchor.instagram p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+#contacto-zone .media-anchor.instagram .mdi-instagram {
+  text-shadow: 2px 2px 3px #740847;
+  font-size: 4rem;
+}
 
 /* FOOTER */
 #footer {
   background-color: #222222;
-  color: #ffff; }
-  #footer a {
-    color: #FFFFFF !important;
-    text-decoration: underline; }
-    #footer a p {
-      font-family: "Roboto", sans-serif;
-      color: #FFFFFF;
-      font-size: 1rem;
-      letter-spacing: 1px; }
-  #footer .site-title {
-    text-decoration: none !important; }
-  #footer .division-hr {
-    color: #505050;
-    border: 1px solid;
-    width: 100%; }
-  #footer .text-footer {
-    font-family: "IM Fell French Canon SC", serif;
-    font-size: 1.8rem;
-    letter-spacing: 0.1rem;
-    text-shadow: 1px 2px 1px #8a8a8a; }
-    #footer .text-footer.text-address {
-      font-family: "Roboto", sans-serif;
-      color: #FFFFFF;
-      font-size: 1rem;
-      letter-spacing: 1px;
-      text-shadow: none; }
-  #footer .text-copyright {
-    font-size: 0.8rem;
-    color: #aeaeae; }
-  #footer .developed-by {
-    font-size: 14px;
-    letter-spacing: 1px;
-    color: #aeaeae; }
+  color: white;
+}
+#footer a {
+  color: #FFFFFF !important;
+  text-decoration: underline;
+}
+#footer a p {
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+#footer .site-title {
+  text-decoration: none !important;
+}
+#footer .division-hr {
+  color: rgb(80, 80, 80);
+  border: 1px solid;
+  width: 100%;
+}
+#footer .text-footer {
+  font-family: "IM Fell French Canon SC", serif;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 2px 1px rgb(138, 138, 138);
+}
+#footer .text-footer.text-address {
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-shadow: none;
+}
+#footer .text-copyright {
+  font-size: 0.8rem;
+  color: #aeaeae;
+}
+#footer .developed-by {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #aeaeae;
+}
 
 /*------ MEDIA QUERIES ------*/
 /* NAVBAR Título*/
 @media (max-width: 576px) {
   .h1 {
     font-size: 1.5rem;
-    letter-spacing: 0.2rem; } }
-
+    letter-spacing: 0.2rem;
+  }
+}
 /*--- NAVBAR ---*/
 @media (max-width: 576px) {
   .navbar-dark .redes-sociales-wrapper a button.btn-success {
-    padding: 0.3rem; }
-    .navbar-dark .redes-sociales-wrapper a button.btn-success i.mdi-whatsapp {
-      font-size: 0.9rem; }
+    padding: 0.3rem;
+  }
+  .navbar-dark .redes-sociales-wrapper a button.btn-success i.mdi-whatsapp {
+    font-size: 0.9rem;
+  }
   .navbar-dark .redes-sociales-wrapper a .mdi-instagram, .navbar-dark .redes-sociales-wrapper a .mdi-facebook {
-    color: #cccccc;
-    text-shadow: 1px 1px 1px #838383;
+    color: rgb(204, 204, 204);
+    text-shadow: 1px 1px 1px rgb(131, 131, 131);
     font-size: 1.7rem;
     border-radius: 0.5rem;
     padding: 0 0.5rem;
-    margin: 0 0.3rem; } }
-
+    margin: 0 0.3rem;
+  }
+}
 @media (max-width: 1025px) {
   .navbar-dark ul {
-    font-size: 0.7rem; } }
-
+    font-size: 0.7rem;
+  }
+}
 /*--- CAROUSEL ---*/
 @media (max-width: 1025px) and (min-width: 769px) {
   #carousel .carouselText h2 {
     font-size: 2rem;
-    margin: auto 15%; } }
-
+    margin: auto 15%;
+  }
+}
 @media (max-width: 768px) and (min-width: 577px) {
   #carousel .carouselText h2 {
     font-size: 1.8rem;
-    margin: auto 10%; } }
-
+    margin: auto 10%;
+  }
+}
 @media (max-width: 576px) and (min-width: 321px) {
   #carousel .carouselText h2 {
     font-size: 1rem;
-    margin: auto 1%; } }
-
+    margin: auto 1%;
+  }
+}
 @media (max-width: 320px) {
   #carousel .carouselText h2 {
     font-size: 0.7rem;
-    margin: auto 1%; } }
-
+    margin: auto 1%;
+  }
+}
 /*--- CONTACTO ---*/
 @media (max-width: 576px) {
   #contacto-zone .media-anchor {
     height: 90px;
     width: 90px;
-    overflow: hidden; }
-    #contacto-zone .media-anchor.facebook .mdi-facebook {
-      font-size: 2rem; }
-    #contacto-zone .media-anchor.facebook p {
-      font-family: "Roboto", sans-serif;
-      font-size: 1rem; }
-    #contacto-zone .media-anchor.whatsapp .mdi-whatsapp {
-      font-size: 2rem; }
-    #contacto-zone .media-anchor.whatsapp p {
-      font-family: "Roboto", sans-serif;
-      font-size: 1rem; }
-    #contacto-zone .media-anchor.instagram .mdi-instagram {
-      font-size: 2rem; }
-    #contacto-zone .media-anchor.instagram p {
-      font-family: "Roboto", sans-serif;
-      font-size: 1rem; } }
-
+    overflow: hidden;
+  }
+  #contacto-zone .media-anchor.facebook .mdi-facebook {
+    font-size: 2rem;
+  }
+  #contacto-zone .media-anchor.facebook p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+  }
+  #contacto-zone .media-anchor.whatsapp .mdi-whatsapp {
+    font-size: 2rem;
+  }
+  #contacto-zone .media-anchor.whatsapp p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+  }
+  #contacto-zone .media-anchor.instagram .mdi-instagram {
+    font-size: 2rem;
+  }
+  #contacto-zone .media-anchor.instagram p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+  }
+}
 /*--- FOOTER ---*/
 @media screen and (max-width: 576px) {
   #footer a {
     color: #FFFFFF !important;
-    text-decoration: underline; }
-    #footer a p {
-      font-family: "Roboto", sans-serif !important;
-      color: #FFFFFF !important;
-      font-size: 1rem !important;
-      letter-spacing: 1px !important;
-      text-align: center !important; }
+    text-decoration: underline;
+  }
+  #footer a p {
+    font-family: "Roboto", sans-serif !important;
+    color: #FFFFFF !important;
+    font-size: 1rem !important;
+    letter-spacing: 1px !important;
+    text-align: center !important;
+  }
   #footer .text-footer {
     font-size: 1.5rem;
     font-family: "IM Fell French Canon SC", serif !important;
     letter-spacing: 0.1rem !important;
-    text-shadow: 1px 2px 1px #8a8a8a !important; }
-    #footer .text-footer.text-address {
-      font-family: "Roboto", sans-serif !important;
-      color: #FFFFFF !important;
-      font-size: 1rem !important;
-      letter-spacing: 1px !important;
-      text-shadow: none !important; }
+    text-shadow: 1px 2px 1px rgb(138, 138, 138) !important;
+  }
+  #footer .text-footer.text-address {
+    font-family: "Roboto", sans-serif !important;
+    color: #FFFFFF !important;
+    font-size: 1rem !important;
+    letter-spacing: 1px !important;
+    text-shadow: none !important;
+  }
   #footer .text-copyright {
     font-size: 0.8rem !important;
-    color: #aeaeae !important; }
+    color: #aeaeae !important;
+  }
   #footer .developed-by {
     font-size: 14px !important;
     letter-spacing: 1px !important;
-    color: #aeaeae !important; } }
+    color: #aeaeae !important;
+  }
+}
