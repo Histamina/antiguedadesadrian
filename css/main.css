@@ -57,13 +57,16 @@ section {
   margin: 0 0.3rem;
 }
 .navbar-dark .redes-sociales-wrapper .btn-success {
-  background-color: #008800;
-  border-color: #008800;
-  text-shadow: 1px 1px 1px #147408;
+  background-color: rgb(236, 191, 68);
+  border-color: rgb(236, 191, 68);
+  text-shadow: 1px 1px 1px rgb(196, 151, 29);
 }
-.navbar-dark .redes-sociales-wrapper .btn-success .mdi-whatsapp {
+.navbar-dark .redes-sociales-wrapper .btn-success:hover {
+  background-color: rgb(218, 177, 66);
+}
+.navbar-dark .redes-sociales-wrapper .btn-success .mdi-phone {
   font-size: 1.05rem;
-  text-shadow: 1px 1px 1px #147408;
+  text-shadow: 1px 1px 1px rgb(196, 151, 29);
 }
 
 /* OFFSET */
@@ -174,19 +177,20 @@ section {
   text-shadow: 2px 2px 3px #080f74;
   font-size: 4rem;
 }
-#contacto-zone .media-anchor.whatsapp {
-  background-color: #008800;
-  text-shadow: 1px 1px 1px #115808;
+#contacto-zone .media-anchor.phone {
+  background-color: rgb(236, 191, 68);
+  border-color: rgb(236, 191, 68);
+  text-shadow: 1px 1px 1px rgb(196, 151, 29);
 }
-#contacto-zone .media-anchor.whatsapp p {
+#contacto-zone .media-anchor.phone p {
   font-family: "Roboto", sans-serif;
   font-weight: 800;
   line-height: 1.2;
   color: #FFFFFF;
   letter-spacing: 1px;
 }
-#contacto-zone .media-anchor.whatsapp .mdi-whatsapp {
-  text-shadow: 2px 2px 3px #115808;
+#contacto-zone .media-anchor.phone .mdi-phone {
+  text-shadow: 2px 2px 3px rgb(196, 151, 29);
   font-size: 4rem;
 }
 #contacto-zone .media-anchor.instagram {
@@ -247,7 +251,7 @@ section {
   color: #aeaeae;
 }
 #footer .developed-by {
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 1px;
   color: #aeaeae;
 }
@@ -265,7 +269,7 @@ section {
   .navbar-dark .redes-sociales-wrapper a button.btn-success {
     padding: 0.3rem;
   }
-  .navbar-dark .redes-sociales-wrapper a button.btn-success i.mdi-whatsapp {
+  .navbar-dark .redes-sociales-wrapper a button.btn-success i.mdi-phone {
     font-size: 0.9rem;
   }
   .navbar-dark .redes-sociales-wrapper a .mdi-instagram, .navbar-dark .redes-sociales-wrapper a .mdi-facebook {
@@ -321,10 +325,10 @@ section {
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
   }
-  #contacto-zone .media-anchor.whatsapp .mdi-whatsapp {
+  #contacto-zone .media-anchor.phone .mdi-phone {
     font-size: 2rem;
   }
-  #contacto-zone .media-anchor.whatsapp p {
+  #contacto-zone .media-anchor.phone p {
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
   }
@@ -371,4 +375,8 @@ section {
     letter-spacing: 1px !important;
     color: #aeaeae !important;
   }
+}
+/* Loom hide content */
+#loom-companion-mv3 {
+  display: none;
 }
