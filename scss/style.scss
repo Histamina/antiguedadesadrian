@@ -236,6 +236,22 @@ section {
    }
 }
 
+#floatButtonWpp {
+   position: fixed;
+   bottom: 20px;
+   right: 15px;
+
+   .btn {
+      padding: 0 14px;
+      border-radius: 50%;
+      height: 75px;
+      .mdi-whatsapp {
+         font-size: 3rem;
+      }
+   }
+
+}
+
 /* FOOTER */
 
 #footer {
@@ -414,6 +430,20 @@ section {
       }
    }
 }
+
+@media screen and (max-width: 576px) {
+   #floatButtonWpp {
+      .btn {
+         padding: 0 8px;
+         border-radius: 50%;
+         height:52px;
+         .mdi-whatsapp {
+            font-size: 2.1rem;
+         }
+      }
+   }
+}
+
 
 /*--- FOOTER ---*/
 
