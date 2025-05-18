@@ -378,6 +378,9 @@ section {
     height: 53px;
   }
   #floatButtonWpp a .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0 8px;
     border-radius: 50%;
     height: inherit;
