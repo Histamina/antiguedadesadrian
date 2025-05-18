@@ -372,12 +372,15 @@ section {
   }
 }
 @media screen and (max-width: 576px) {
-  #floatButtonWpp .btn {
+  #floatButtonWpp a {
+    display: block;
+  }
+  #floatButtonWpp a .btn {
     padding: 0 8px;
     border-radius: 50%;
     height: 52px;
   }
-  #floatButtonWpp .btn .mdi-whatsapp {
+  #floatButtonWpp a .btn .mdi-whatsapp {
     font-size: 2.1rem;
   }
 }
