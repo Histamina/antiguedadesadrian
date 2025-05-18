@@ -468,10 +468,13 @@ section {
   #floatButtonWpp {
     a {
       display: block;
+      width: 53px;
+      height: 53px;
       .btn {
         padding: 0 8px;
         border-radius: 50%;
-        height: 52px;
+        height: inherit;
+        width: inherit;
         .mdi-whatsapp {
           font-size: 35px;
         }

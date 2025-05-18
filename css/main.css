@@ -374,11 +374,14 @@ section {
 @media screen and (max-width: 576px) {
   #floatButtonWpp a {
     display: block;
+    width: 53px;
+    height: 53px;
   }
   #floatButtonWpp a .btn {
     padding: 0 8px;
     border-radius: 50%;
-    height: 52px;
+    height: inherit;
+    width: inherit;
   }
   #floatButtonWpp a .btn .mdi-whatsapp {
     font-size: 35px;
