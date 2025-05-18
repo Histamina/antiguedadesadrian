@@ -471,6 +471,9 @@ section {
       width: 53px;
       height: 53px;
       .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 0 8px;
         border-radius: 50%;
         height: inherit;
